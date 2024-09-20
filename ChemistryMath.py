@@ -1,6 +1,4 @@
 import mendeleev as M
-import time
-start_time = time.time()
 
 #Calculates the molar mass of a molecule and the mass percentage of each element in it
 def GetMolarMass(elements):
@@ -88,8 +86,3 @@ def GetElements(text):
             except Exception:
                 continue
     return elements
-
-#elements = "H4O2"
-#print(GetMolarMass(elements.split()))
-#print("Process finished --- %s seconds ---" % (time.time() - start_time))
-
